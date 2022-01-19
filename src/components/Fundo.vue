@@ -1,11 +1,11 @@
 <template>
-  <div id="body-banner"></div>
+  <div id="fundo"></div>
 </template>
 
 <script>
 export default {
 components:{
-    name: "Banner"
+    name: "Fundo"
 }
 }
 </script>

@@ -4,16 +4,16 @@
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-        <span class="img-logo">Spotify</span>
-        
+        <span class="img-logo">Spotify</span> 
       </a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Premium</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Suporte</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Baixar</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">|</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Inscrever-se</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Entrar</a></li>
       </ul>
     </header>
   </div>
@@ -36,7 +36,17 @@ background:url('../assets/spotify.svg') no-repeat;
 background-size: contain;
 color: transparent;
 }
-.navbar-brand{
-	padding: 5px 15px;
+.nav>li>a{
+  color: white;
+  font: bold;
+}
+.nav>li>a:hover{
+	color: #9bf0e1;
+}
+h1{
+	font-size: 400px;
+	font-weight: 900;
+	letter-spacing: -0.04px;
+	margin-bottom: 50px;
 }
 </style>

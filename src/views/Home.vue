@@ -4,16 +4,17 @@
 </template>
 
 <script>
-import Banner from '../components/Banner.vue'
+import Corpo from '../components/Fundo.vue'
 import Header from '../components/Header.vue'
+import Capa from '../components/Capa.vue'
 import Footer from '../components/Footer.vue'
 
 export default {
   name: 'Home',
   components: {
     Header,
-    Footer,
-    Banner
+    Capa,
+    Footer
   }
 }
 </script>

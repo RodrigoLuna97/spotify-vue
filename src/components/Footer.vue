@@ -1,14 +1,14 @@
 <template>
-  <footer id="rodape">
+  <footer id="footer">
         <div class="container">
           
-          <div class="row">
+          <div class="row" id="rodape" >
             <div class="col-md-2">
               <span class="img-logo">Spotify</span>
             </div>
 
             <div class="col-md-2">
-              <h4>Company</h4>
+              <h4>Empresa</h4>
               <ul class="nav">
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Empregos</a></li>
@@ -43,10 +43,7 @@
               </ul>
             </div>
 
-            
           </div><!-- /row -->
-
-
         </div>
         
       </footer>
@@ -65,6 +62,7 @@ components:{
 	background: #000;
 	padding: 50px 0px 20px 0px;
 	position: relative;
+  height: 200px;
 }
 #item-rede-social{
 	float: right;
@@ -76,6 +74,16 @@ display: block;
 background:url('../assets/spotify.svg') no-repeat;
 background-size: contain;
 color: transparent;
+}
+.nav>li>a{
+  color: white;
+  padding: 5px 5px;
+}
+h4{
+	color: #919496;
+	font-size: 15px;
+	text-transform: uppercase;
+
 }
 
 
