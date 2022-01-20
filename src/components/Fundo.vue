@@ -6,7 +6,7 @@
 export default {
 components:{
     name: "Fundo"
-}
+ }
 }
 </script>
 
