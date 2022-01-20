@@ -1,6 +1,7 @@
 <template>
+<div id="section">
  <div class="container">
-  <footer class="row  py-5 my-5 border-top">
+  <div class="row  py-5 my-5 border-top">
 
     <div class="col-md-2">
      <span class="img-logo">Spotify</span>
@@ -42,7 +43,8 @@
             <li class="item-rede-social" ><a href="#"><img src="../assets/instagram.png"></a></li>
         </ul>
       </div>
-  </footer>
+  </div>
+</div>
 </div>
 </template>
 
@@ -55,11 +57,12 @@ components:{
 </script>
 
 <style scoped>
-footer{
+#section{
 	background: black;
-	padding: 20px 0px 20px 0px;
-  height: 250px;
+  height: 350px;
   width: 100%;
+  position: relative;
+  
 }
 
 #item-rede-social{

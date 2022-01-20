@@ -36,14 +36,16 @@
                 <h2>O que o Spotify tem?</h2>
 
                 <h3>Músicas</h3>
-                <p>O Spotify asodjf asfiusadiuf asiudfhiuasdhf asiudfhiuas
-                uiasdfuasduif auidshfaisd udfhiuasdhf asiudfhiuas udfhiuasdhf asiudfhiuas</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam, nesciunt maxime doloremque beatae debitis saepe dolorum error. Voluptates doloremque aspernatur illum laboriosam voluptate tempora, ipsa voluptatum voluptatibus eligendi nulla.</p>
+
                 <h3>Playlists</h3>
-                <p>O Spotify asodjf asfiusadiuf udfhiuasdhf asiudfhiuas asiudfhiuasdhf asiudfhiuas
-                uiasdfuasduif auidshfaisd</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ut facilis, at blanditiis porro animi numquam quam nisi? Iure cupiditate soluta dolore dignissimos earum, sed maiores ad minima accusamus quas.</p>
+
                 <h3>Novos lançamentos</h3>
-                <p>O Spotify asodjf asfiusadiuf audfhiuasdhf asiudfhiuas siudfhiuasdhf asiudfhiuas
-                uiasdfuasduif auidshfaisd</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minima magnam officiis repellendus consectetur! Accusamus obcaecati quod ipsum aliquam commodi repellat quam nobis provident? Hic, amet? Ex est accusamus accusantium.</p>
 
               </div>
             </div>
@@ -62,7 +64,7 @@ export default {
 #servicos{
 	background: white;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 80px;
 }
 .albuns{
 	padding: 10px 0px 10px 0px;

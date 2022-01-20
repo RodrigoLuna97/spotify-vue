@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import Corpo from '../components/Fundo.vue'
+import Fundo from '../components/Fundo.vue'
 import Header from '../components/Header.vue'
 import Capa from '../components/Capa.vue'
 import Footer from '../components/Footer.vue'
@@ -14,7 +14,8 @@ export default {
   components: {
     Header,
     Capa,
-    Footer
+    Footer,
+    Fundo
   }
 }
 </script>
