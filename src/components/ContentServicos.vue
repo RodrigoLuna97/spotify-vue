@@ -50,6 +50,7 @@ export default {
 	font-weight: 700;
 	letter-spacing: -0.04em;
   color: #ffffff;
+  padding-top: 90px;
 }
 #servico h3{
 	font-size: 35px;

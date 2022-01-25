@@ -63,6 +63,7 @@ components:{
   width: 100%;
   position: relative;
   
+  
 }
 
 #item-rede-social{
