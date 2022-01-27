@@ -43,7 +43,7 @@ export default {
 .content-premium{
     height: 500px;
     background-color: white;
-    padding-top: 100px;
+    padding-top: 90px;
     align-content: center;
 }
  h1{
@@ -53,8 +53,11 @@ export default {
 }
 h4{
     font-weight: bold;
-    padding-bottom: 2px;
-    text-align: left;
+    padding: 15px;
+    
+}
+p{
+    padding-left: 18px;
 }
 
 </style>

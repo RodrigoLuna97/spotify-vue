@@ -2,7 +2,9 @@
   <div class="premium">
    <CapaPremium />
    <ContentPremium />
+    <PlanosPremium />
    <Footer />
+  
   </div>
 </template>
 
@@ -10,6 +12,7 @@
 
 import CapaPremium from '../components/CapaPremium.vue'
 import ContentPremium from '../components/ContentPremium.vue'
+import PlanosPremium from '../components/ContentPremiumPlanos.vue'
 import Footer from '../components/Footer.vue'
 
 export default {
@@ -17,7 +20,9 @@ export default {
   components:{
     CapaPremium,
     ContentPremium,
-    Footer
+    PlanosPremium,
+    Footer,
+    
    
   }
 }

@@ -37,8 +37,7 @@ export default {
 	text-transform: uppercase;
 	margin: 5px;
 	transition: background 0.4s, color 0.4s;
-    background-color: cyan;
-    
+   
     font-weight: bold;
 }
 .btn-1{
