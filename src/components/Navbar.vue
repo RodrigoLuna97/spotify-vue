@@ -1,8 +1,9 @@
 <template>
     
-   <div class="container">
+   
 
       <nav class="navbar">
+        <div class="container">
 
          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto  text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
@@ -14,10 +15,10 @@
           <router-link class="btn" to="/premium">Premium</router-link>
           <router-link class="btn" to="/login">Login</router-link>
         </div> 
-        
+         </div>
       </nav>
 
-    </div>
+   
      <router-view/>
 </template>
 
@@ -39,16 +40,18 @@ color: transparent;
 }
 
 .links .btn {
-    color: #fff;
+    color: rgb(255, 254, 254);
+    font-weight: bold;
     
 }
-
+.links .btn:hover{
+	color: #9bf0e1;
+}
 .navbar{
 	padding: 15px 15px;
 	background: rgba(0,0,0, 0.9);
 	border: none;
 }
-
 
 
 </style>

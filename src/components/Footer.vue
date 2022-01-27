@@ -1,7 +1,7 @@
 <template>
 <div id="section">
  <div class="container">
-  <div class="row  py-5 my-5 border-top">
+  <div class="row  py-5 my-5 ">
 
     <div class="col-md-2">
      <span class="img-logo">Spotify</span>
@@ -61,7 +61,7 @@ components:{
 	background: black;
   height: 350px;
   width: 100%;
-  position: relative;
+  position: absolute;
   
   
 }
