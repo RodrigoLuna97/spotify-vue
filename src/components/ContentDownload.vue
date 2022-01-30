@@ -26,14 +26,14 @@ export default {
   #download{
       height: 524px;
       background: #19E68C;
-      
+      position: relative;
       
 }
 #title{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    position: relative;
+    position: absolute;
     text-align: center;
 }
 #title h1,p {

@@ -40,11 +40,11 @@ export default {
     padding-top: 30px;
 }
 .btn-store{
-	padding: 25px 25px;	
+	padding-bottom: 25px 
 	
 }
 button{
-    padding: 15px;
+    padding: 13px;
     border: none;
     background: none;
 }
