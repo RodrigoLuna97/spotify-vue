@@ -1,6 +1,4 @@
 <template>
-    
-   
 
       <nav class="navbar">
         <div class="container">
@@ -11,9 +9,12 @@
         </a>
 
         <div class="links">
-          <router-link class="btn" to="/">Home</router-link>
           <router-link class="btn" to="/premium">Premium</router-link>
+          <router-link class="btn" to="/download">Baixar</router-link>
+          <a href="/">|</a>
           <router-link class="btn" to="/login">Login</router-link>
+          
+          
         </div> 
          </div>
       </nav>
@@ -48,9 +49,10 @@ color: transparent;
 	color: #9bf0e1;
 }
 .navbar{
-	padding: 15px 15px;
+	padding: 20px 20px;
 	background: rgba(0,0,0, 0.9);
 	border: none;
+
 }
 
 

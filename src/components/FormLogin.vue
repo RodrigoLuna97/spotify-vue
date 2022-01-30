@@ -1,23 +1,25 @@
 <template>
-  <div class="container" id="form-login">
-   <form>
+
+  <div class="form-login">
     
-    <h1 class="h3">Efetue Login:</h1>
+    <div class="container">
 
-    <div class="form-floating">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email address</label>
+      <form>
+        
+        <h1 >Efetue Login:</h1>
+        
+        <div class="form-floating form-group">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email:</label>
+        </div>
+        <div class="form-floating form-group">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Senha:</label>
+        </div>
+        <button class="btn btn-lg btn-primary" type="submit">Entrar</button>
+        
+        </form>
     </div>
-    <div class="form-floating">
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-      <label for="floatingPassword">Password</label>
-    </div>
-
-  
-
-    <button class="btn btn-lg btn-primary" type="submit">Sign in</button>
-    
-  </form>
   </div>
 
 </template>
@@ -31,15 +33,13 @@ export default {
 
 <style scoped>
 
-#form-login {
-    max-width: 400px;
-    display: center;
+.form-login {
+    
     padding-top: 60px;
+    background-color: white;
+    height: 500px;
   }
-.container{
-  height: 500px;
-}
-  
+
   label {
     font-weight: bold;
     margin-bottom: 15px;
@@ -49,35 +49,12 @@ export default {
   }
   input, select {
     padding: 5px 5px;
-    width: 400px;
+    width: 450px;
   }
-
-.form-signin {
-  width: 100%;
-  max-width: 330px;
-  padding: 15px;
-  margin: auto;
+h1{
+  text-align: center;
 }
 
-.form-signin .checkbox {
-  font-weight: 400;
-}
-
-.form-signin .form-floating:focus-within {
-  z-index: 2;
-}
-
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.form-signin input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
 
 
 
