@@ -18,5 +18,6 @@ body{
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;	
 	overflow-x: hidden;			
+	display: block;
 }
 </style>
