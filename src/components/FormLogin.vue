@@ -1,26 +1,24 @@
 <template>
 
-  <div class="form-login">
-    
-    <div class="container">
 
-      <form>
+    <div class="form-login">
         
-        <h1 >Efetue Login:</h1>
-        
-        <div class="form-floating form-group">
-          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-          <label for="floatingInput">Email:</label>
-        </div>
-        <div class="form-floating form-group">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-          <label for="floatingPassword">Senha:</label>
-        </div>
-        <button class="btn btn-lg btn-primary" type="submit">Entrar</button>
-        
-        </form>
-    </div>
-  </div>
+        <form class="form-control justify-content-sm-center">
+          
+          <div class="form-group ">
+            <label for="">Email:</label>
+            <input type="email" class="form-control" id="Login" placeholder="Endereço de e-mail ou nome de usuário">
+          
+          </div>
+          <div class="form-group ">
+            <label for="">Senha:</label>
+            <input type="password" class="form-control" id="Senha" placeholder="Senha"> 
+          </div>
+
+          <button class="btn btn-lg btn-primary form-group" type="submit">Entrar</button>
+          
+          </form>
+      </div>
 
 </template>
 
@@ -33,28 +31,31 @@ export default {
 
 <style scoped>
 
-.form-login {
-    
-    padding-top: 60px;
-    background-color: white;
-    height: 500px;
-  }
+.form-login{
+  background: white;
+  height: 889px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 
-  label {
+
+ label {
     font-weight: bold;
-    margin-bottom: 15px;
     color: #222;;
-    padding: 10px 10px;
+    padding: 5px 5px;
     
   }
   input, select {
     padding: 5px 5px;
     width: 450px;
-  }
-h1{
-  text-align: center;
-}
+    height: 50px;
+  } 
 
+.btn{
+  margin: 10px;
+}
 
 
 

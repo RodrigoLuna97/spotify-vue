@@ -24,6 +24,11 @@ const routes = [
     path: '/download',
     name: 'Download',
     component: () => import (/* webpackChunkName: "download" */ '../views/Download.vue')
+  },
+  {
+    path: '/suporte',
+    name: 'Suporte',
+    component: () => import (/* webpackChunkName: "suporrte" */ '../views/Suporte.vue')
   }
 ]
 

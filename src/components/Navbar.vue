@@ -10,7 +10,8 @@
 
         <div class="links">
           <router-link class="btn" to="/premium">Premium</router-link>
-          <router-link class="btn" to="/download">Baixar</router-link>
+          <router-link class="btn" to="/suporte">Suporte</router-link>
+          <router-link class="btn" to="/download">Download</router-link>
           <a href="/">|</a>
           <router-link class="btn" to="/login">Login</router-link>
           

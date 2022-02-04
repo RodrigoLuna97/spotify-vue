@@ -2,14 +2,13 @@
   <div class="premium">
    <CapaPremium />
    <ContentPremium />
-    <PlanosPremium />
+   <PlanosPremium />
    <Footer />
   
   </div>
 </template>
 
 <script>
-
 import CapaPremium from '../components/CapaPremium.vue'
 import ContentPremium from '../components/ContentPremium.vue'
 import PlanosPremium from '../components/ContentPremiumPlanos.vue'
@@ -21,9 +20,7 @@ export default {
     CapaPremium,
     ContentPremium,
     PlanosPremium,
-    Footer,
-    
-   
+    Footer
   }
 }
 </script>
