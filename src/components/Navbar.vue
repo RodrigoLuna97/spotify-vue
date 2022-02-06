@@ -31,6 +31,12 @@ export default {
 </script>
 
 <style scoped>
+.navbar{
+	padding: 20px 20px;
+	background: rgba(0,0,0, 0.9);
+	border: none;
+  display: flex;
+}
 
 .img-logo{
 height: 40px;
@@ -49,12 +55,7 @@ color: transparent;
 .links .btn:hover{
 	color: #9bf0e1;
 }
-.navbar{
-	padding: 20px 20px;
-	background: rgba(0,0,0, 0.9);
-	border: none;
 
-}
 
 
 </style>

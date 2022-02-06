@@ -24,6 +24,7 @@ export default {
 
 <style scoped>
   #download{
+      display: flex;
       height: 524px;
       background: #19E68C;
       position: relative;
