@@ -85,6 +85,7 @@ export default {
 #planos{
     background-color: #EFEFEF;
     padding: 60px;
+    display: flex;
 }
  h1{
     text-align: center;

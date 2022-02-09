@@ -41,10 +41,10 @@ export default {
 
 <style scoped>
 .content-premium{
-    height: 500px;
+    display: flex;
     background-color: white;
     padding-top: 90px;
-    align-content: center;
+    
 }
  h1{
     text-align: center;
@@ -54,7 +54,6 @@ export default {
 h4{
     font-weight: bold;
     padding: 15px;
-    
 }
 p{
     padding-left: 18px;

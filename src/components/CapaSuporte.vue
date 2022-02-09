@@ -75,7 +75,7 @@ h1{
     align-self: center;
 }
 .form-group {
-  width: 600px;
+  width: 50vw;
   height: 40px;
 }
 

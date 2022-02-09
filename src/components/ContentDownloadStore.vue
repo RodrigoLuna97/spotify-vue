@@ -23,16 +23,18 @@ export default {
 <style>
 
 #content-store{
-    height: 310px;
+    display: flex;
     background: white;
     text-align: center;
-    position: relative;
     padding-top: 70px;
+    flex-direction: column;
+    justify-content: center;
    
 }
 #content-store h2{
         font-size: 35px;
         font-weight: bold;
+        text-align: center;
 }
 #content-store p{
     font-size: 15px;

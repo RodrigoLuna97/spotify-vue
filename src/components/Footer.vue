@@ -59,10 +59,8 @@ components:{
 <style scoped>
 #section{
 	background: black;
-  height: 350px;
   width: 100%;
   position: absolute;
-  
   
 }
 
