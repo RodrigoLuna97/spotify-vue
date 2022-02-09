@@ -36,8 +36,7 @@ export default {
 	padding: 10px 65px;
 	text-transform: uppercase;
 	margin: 5px;
-	transition: background 0.4s, color 0.4s;
-   
+	transition:  0.4s, color 0.4s;
     font-weight: bold;
 }
 .btn-1{

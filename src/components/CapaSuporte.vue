@@ -68,6 +68,7 @@ h1{
     font-weight: bold;
     color: white;
     padding-top: 60px;
+    padding-bottom: 15px;
     text-align: center;
 }
 
@@ -75,8 +76,9 @@ h1{
     align-self: center;
 }
 .form-group {
-  width: 50vw;
-  height: 40px;
+  width: 40vw;
+  height: 50px;
+  
 }
 
 .row{

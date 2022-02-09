@@ -5,6 +5,7 @@
           <p>Escute sem limites no seu celular, caixa de som ou outro dispositivo.</p>
 
           <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
             <div class="col-lg-3 individual">
                 <div class="card mb-4 rounded-3 shadow-sm">
                     <h3>Individual</h3>
@@ -86,6 +87,7 @@ export default {
     background-color: #EFEFEF;
     padding: 60px;
     display: flex;
+    
 }
  h1{
     text-align: center;
@@ -95,6 +97,7 @@ export default {
 p{
     text-align: center;
 }
+
 .btn{
 	color: rgb(255, 254, 254);
 	border-radius: 500px;
@@ -109,6 +112,9 @@ p{
 }
 ul{
     height: 400px;
+}
+li{
+    list-style: '✓';
 }
 
 </style>
