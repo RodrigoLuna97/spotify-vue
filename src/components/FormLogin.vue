@@ -2,31 +2,29 @@
 
   <div id="fundo">
 
-    <div class="form-login">
-      
-
         <form class="form-control">
+
           <p>Para continuar, faça login no  spotify</p> 
 
-            <div>      
-             <button class="btn btn-facebook btn-lg" type="submit">Continuar com o Facebook</button>
+            <div class="botoes">      
+              
+             <button class="btn btn-facebook btn-lg" type="submit"> Continuar com o Facebook</button>
           </div> 
 
-          <div>
+          <div class="botoes">
               <button class="btn btn-apple btn-lg" type="submit">Continuar com a apple</button>
           </div>
 
-          <div>
+          <div class="botoes">
               <button class="btn btn-google btn-lg" type="submit">Continuar com o google</button>
           </div>
 
-          <div>
+          <div class="botoes">
               <button class="btn btn-numero btn-lg" type="submit">Continuar com número de telefone</button>
+              <hr>
           </div>
 
-          <div class="separador">
-           <hr>
-          </div>
+          
           
           <div class="form-group ">
             <label for="">Endereço de e-mail ou nome de usuário</label>
@@ -51,7 +49,7 @@
           </form>
           
       </div>
-</div>
+
 </template>
 
 <script>
@@ -63,26 +61,23 @@ export default {
 
 <style scoped>
 #fundo{
-  height: 900px;
-  width: 1920px;
+  height: 95vh;
+  width: 100vw;
   background: white;
-  overflow-x: hidden;
+  overflow-y: hidden;
+  
 }
+
+.form-control{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 p{
   text-align: center;
   color: black;
   font-weight: bold;
-}
-
-form{
-  background: white;
-  height: 600px;
-  width:500px;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%,-50%);
-  box-sizing: border-box;
 }
 
  label {
@@ -92,33 +87,40 @@ form{
     font-size: 13px;
     
   }
+
   input, select {
     padding: 5px 5px;
     width: 473px;
     height: 50px;
+    border: 1px solid gray;
   } 
 
 .btn-login{
   margin: 15px;
-  float: right;
   background: #1FDF64;
   font-weight: 500;
   border-radius: 500px;
   padding: 5px 35px;
   text-transform: uppercase;
   font-size: 17px;
+  border: none;
+  
 }
+
 .separador{
   padding-top: 10px;
 }
+
 .checkbox input{
   height: 15px;
   width: 15px;
   margin-top: 10px;
 }
+
 .checkbox label{
   padding-top: 8px;
 }
+
 .btn{
   border-radius: 500px;
   padding: 12px 35px;
@@ -128,16 +130,18 @@ form{
   font-weight: 500;
   width: 473px;
   margin-top: 12px;
-  letter-spacing: 0.1em;
-  
+  letter-spacing: 0.1em; 
 }
+
 .btn-facebook{
   background: #3B5998;
   color: white;
 }
+
 .btn-apple{
   background: black;
   color: white;
+  
 }
 .btn-google{
   background: white;
@@ -147,5 +151,6 @@ form{
   background: white;
   color: gray;
 }
+
 
 </style>

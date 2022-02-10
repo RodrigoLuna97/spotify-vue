@@ -13,6 +13,7 @@
           <router-link class="btn" to="/suporte">Suporte</router-link>
           <router-link class="btn" to="/download">Download</router-link>
           <a href="/">|</a>
+          <router-link class="btn" to="/inscreva-se">Inscreva-se</router-link>
           <router-link class="btn" to="/login">Login</router-link>
           
           
