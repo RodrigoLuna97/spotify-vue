@@ -83,7 +83,7 @@ export default {
 
 <style scoped>
 .section{
-    height: 110vh;
+    height: 120vh;
     width: 100vw;
     background-color: white;
 
@@ -91,8 +91,9 @@ export default {
 .conteudo{
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 370px;
     margin: 0 auto;  
+    padding-top: 30px;
 }
  
  .botoes-header{
@@ -158,7 +159,7 @@ background-size: contain;
     color: #222;;
     padding: 5px 5px;
     font-size: 13px;
-    width: 400px; 
+    width: 370px; 
   }
   
     

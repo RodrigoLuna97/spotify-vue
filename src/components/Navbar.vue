@@ -3,21 +3,20 @@
       <nav class="navbar">
         <div class="container">
 
-         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto  text-decoration-none">
+         <a href="/" class="d-flex align-items-center   text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
           <span class="img-logo">Spotify</span> 
         </a>
 
-        <div class="links">
-          <router-link class="btn" to="/premium">Premium</router-link>
-          <router-link class="btn" to="/suporte">Suporte</router-link>
-          <router-link class="btn" to="/download">Download</router-link>
-          <a href="/">|</a>
-          <router-link class="btn" to="/inscreva-se">Inscreva-se</router-link>
-          <router-link class="btn" to="/login">Login</router-link>
-          
-          
-        </div> 
+            <div class="links">
+              <router-link class="btn" to="/premium">Premium</router-link>
+              <router-link class="btn" to="/suporte">Suporte</router-link>
+              <router-link class="btn" to="/download">Download</router-link>
+              <a href="/">|</a>
+              <router-link class="btn" to="/inscreva-se">Inscreva-se</router-link>
+              <router-link class="btn" to="/login">Login</router-link>
+            </div> 
+
          </div>
       </nav>
 
@@ -36,7 +35,7 @@ export default {
 	padding: 20px 20px;
 	background: rgba(0,0,0, 0.9);
 	border: none;
-  display: flex;
+  
 }
 
 .img-logo{

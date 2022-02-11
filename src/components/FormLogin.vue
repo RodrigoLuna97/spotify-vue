@@ -90,7 +90,7 @@ p{
 
   input, select {
     padding: 5px 5px;
-    width: 473px;
+    width: 370px;
     height: 50px;
     border: 1px solid gray;
   } 
@@ -128,7 +128,7 @@ p{
   border: solid 1px gray;
   font-size: 15px;
   font-weight: 500;
-  width: 473px;
+  width: 370px;
   margin-top: 12px;
   letter-spacing: 0.1em; 
 }

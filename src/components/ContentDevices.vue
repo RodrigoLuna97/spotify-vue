@@ -41,8 +41,8 @@ export default {
 }
 #content{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    
     padding: 30px;
 }
 
@@ -52,7 +52,9 @@ export default {
 }
 .dispositivos ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    flex-shrink:1;
     
 }
 li{
