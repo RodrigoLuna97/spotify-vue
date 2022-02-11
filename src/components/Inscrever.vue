@@ -3,9 +3,12 @@
 
         <class class="conteudo">
 
+            <div class="cabecalho">
+
                 <div class="header">
-                    
-                    <div class="img-logo"></div> 
+    
+                    <div class="img-logo">
+                        </div> 
                     <h1>Inscreva-se grátis e comece a curtir.</h1>
 
                 </div>
@@ -18,7 +21,7 @@
                     <hr>
                 </div>
 
-
+             </div>
 
          <form>
                 <div class="mb-3">
@@ -61,7 +64,7 @@
                          </div>
                     </div>
 
-                    <button class="btn">Inscrever-se</button>
+                    <button class="btn btn-inscrever">Inscrever-se</button>
                    
 
 
@@ -80,25 +83,47 @@ export default {
 
 <style scoped>
 .section{
-    display: flex;
-    flex-direction: row;
     height: 110vh;
     width: 100vw;
     background-color: white;
 
 }
 .conteudo{
+    display: flex;
+    flex-direction: column;
     max-width: 400px;
-    margin: 0 auto;
-    align-items: center;
+    margin: 0 auto;  
 }
  
+ .botoes-header{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ form{
+     display: flex;
+     flex-direction: column;
+     align-items: center; 
+ }
+
+ h1{
+     text-align: center;
+ }
 
 .img-logo{
+display: flex;
+margin: auto;
 height: 40px;
 width: 132px;
 background:url('../assets/spotify-logo.png') no-repeat;
 background-size: contain;
+}
+
+.btn-inscrever{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
 }
 
 .btn{
@@ -112,21 +137,29 @@ background-size: contain;
   letter-spacing: 0.1em; 
   padding: 14px 32px;
 }
+
 .btn-facebook{
   background: #3085F3;
   color: white;
 }
+
 .btn-google{
   background: white;
   color: gray;
 }
+
+.btn-inscrever{
+     background-color: #1ED760; 
+      font-weight: bold;
+  }
 
  label {
     font-weight: bold;
     color: #222;;
     padding: 5px 5px;
     font-size: 13px;
-    
+    width: 400px; 
   }
+  
     
 </style>

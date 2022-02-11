@@ -14,26 +14,26 @@
             
             <div class="row">
         
-            <div class="col-md-3">
-                <h5>Acesso</h5>
-                <a href="">Não consigo reiniciar a senha</a>
-            </div>
+                <div class="col-md-3">
+                    <h5>Acesso</h5>
+                    <a href="">Não consigo reiniciar a senha</a>
+                </div>
 
-            <div class="col-md-3">
-                <h5>Planos disponíveis</h5>
-                <a href="">Comece ou jude para plano familiar</a>
+                <div class="col-md-3">
+                    <h5>Planos disponíveis</h5>
+                    <a href="">Comece ou jude para plano familiar</a>
 
-            </div>
+                </div>
 
-            <div class="col-md-3">
-                <h5>Acesso</h5>
-                <a href="">Não consigo lembrar detalhes do login</a> 
-            </div>
+                <div class="col-md-3">
+                    <h5>Acesso</h5>
+                    <a href="">Não consigo lembrar detalhes do login</a> 
+                </div>
 
-            <div class="col-md-3">
-                <h5>Acesso</h5>
-                <a href="">Ajuda para acessar com Facebook</a>
-            </div>
+                <div class="col-md-3">
+                    <h5>Acesso</h5>
+                    <a href="">Ajuda para acessar com Facebook</a>
+                </div>
 
             </div>
         </div>
@@ -57,7 +57,6 @@ html, body{
 }
 .capa-suporte{
     background: url('../assets/search-desktop.webp');
-    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,9 +79,10 @@ h1{
   height: 50px;
   
 }
-
 .row{
-    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
 }
 .row h5{
     color: #A6CDD9;
