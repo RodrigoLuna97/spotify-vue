@@ -1,79 +1,89 @@
 <template>
-  <div id="planos">
-      <div class="container">
+  <div class="section">
+
+      <div class="container-planos">
           <h1>Escolha seu Plano</h1>
           <p>Escute sem limites no seu celular, caixa de som ou outro dispositivo.</p>
 
-          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="row-planos">
 
-            <div class="col-lg-3 individual">
-                <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="coluna individual">
+                <div class="card-title ">
                     <h3>Individual</h3>
                     <p>R$ 9,99/mês após período da oferta</p>
-                    
-                    <p>____________________________</p>
-                    <ul >
+                    <hr>
+                </div>
+                    <ul class="card-1">
                         <li>Escute músicas sem anúncios.</li>
                         <li>Escute em qualquer canto - até  offline.</li>
                         <li>Reprodução sob demanda.</li>
                     </ul>
-                    <a href="#" class="btn btn-1">Comece</a>
+                       <div class="btn">
+                        <a href="#" class="btn-1">Comece</a>
+                      </div>
                 </div>
-            </div>
             
-            <div class="col-lg-3 duo">
-                 <div class="card mb-4 rounded-3 shadow-sm">
-                <h3>Duo</h3>
-                <p>R$ 12,99/mês após período da oferta</p>
-                
-                <p>____________________________</p>
-                <ul>
+            
+            <div class="coluna duo">
+                 <div class="card-title ">
+                    <h3>Duo</h3>
+                    <p>R$ 12,99/mês após período da oferta</p>               
+                   <hr>
+                 </div>
+                <ul class="card-2">
                     <li>2 contas Premium para um casal sob o mesmo teto</li>
                     <li>Duo Mix: uma lista de reprodução para dois, atualizada regularmente com músicas de que ambos gostam.</li>
                     <li>Ouvir música sem anúncios, reproduzir offline, reprodução sob demanda.</li>
                 </ul>
-                <a href="#" class="btn btn-1">Comece</a>
-                 </div>
+                    <div class="btn">
+                        <a href="#" class="btn-1">Comece</a>
+                    </div>
             </div>
+            
 
-            <div class="col-lg-3 familia">
-                 <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="coluna familia">
+                 <div class="card-title ">
                 <h3>Família</h3>
-                <p>R$ 15,99/mês após período da oferta</p>
-                
-                <p>____________________________</p>
-                <ul>
+                <p>R$ 15,99/mês após período da oferta</p>               
+                <hr>
+                 </div>
+                <ul class="card-3">
                     <li>6 contas premium para membros da família que vivem sob o mesmo teto.</li>
                     <li>Family Mix: uma lista de reprodução para sua família, atualizada regularmente com músicas de que todos gostam.</li>
                     <li>Bloquear música explícita.</li>
                     <li>Ouvir música sem anúncios, reproduzir offline, reprodução sob demanda.</li>
                     <li>Spotify Kids: um aplicativo separado feito apenas para crianças.</li>
                 </ul>
-                <a href="#" class="btn btn-1">Comece</a>
-                 </div>
-            </div>
+                     <div class="btn">
+                        <a href="#" class="btn-1">Comece</a>
+                    </div>
+                </div>
+                 
 
-            <div class="col-lg-3 estudante">
-                 <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="coluna estudante">
+                 <div class="card-title">
                 <h3>Estudante</h3>
-                <p>R$ 4,99/mês após período da oferta</p>
-                
-                <p>____________________________</p>
-                <ul>
+                    <p>R$ 4,99/mês após período da oferta</p>                
+                    <hr>
+                 </div>
+                <ul class="card-4">
                     <li>Plano Hulu (suportado por anúncios).</li>
                     <li>ALTURA DE COMEÇAR.</li>
                     <li>Ouça música sem anúncios.</li>
                     <li>Jogue em qualquer lugar - mesmo offline.</li>
                     <li>Reprodução sob demanda.</li>
                 </ul>
-                <a href="#" class="btn btn-1">Comece</a>
-                 </div>
-            </div>
-
-
+                <div class="btn">
+                <a href="#" class="btn-1">Comece</a>
+                </div>
+             </div>
+            
+        
+  
           </div>
       </div>
   </div>
+
 </template>
 
 <script>
@@ -83,15 +93,50 @@ export default {
 </script>
 
 <style scoped>
-#planos{
+.section{
     background-color: #EFEFEF;
-    padding: 60px;
-    display: flex;
     
+}
+
+.row-planos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto); 
+    -webkit-box-pack: center; 
+    margin: 0 370px;
+}
+
+.coluna {
+    display: grid;
+    width: 265px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    margin: 10px;
+}
+.individual> .card-1{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.duo > .card-2{
+    grid-column: 1;
+    grid-row: 2;
+}
+.familia > .card-3{
+    grid-column: 1;
+    grid-row: 2;
+}
+.estudante > .card-4{
+    grid-column: 1;
+    grid-row: 2;
 }
  h1{
     text-align: center;
-    padding-bottom: 30px;
+    padding: 60px 0px 0px 0px;
     font-weight: bold;
 }
 p{
@@ -99,22 +144,41 @@ p{
 }
 
 .btn{
+    padding-bottom: 20px;
+}
+.btn-1{
 	color: rgb(255, 254, 254);
 	border-radius: 500px;
-	padding: 10px 65px;
+	padding: 10px 75px;
+    text-decoration: none;
 	text-transform: uppercase;
-	margin: 5px;
-	transition: background 0.4s, color 0.4s;
     background-color: rgb(0, 5, 5);
     font-weight: bold;
     
-    
 }
 ul{
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
 }
 li{
     list-style: '✓';
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-width: 1px;
+    color: rgb(0, 0, 0);
+   
 }
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div id="fundo"></div>
+  <div class="fundo"></div>
 </template>
 
 <script>
@@ -11,7 +11,7 @@ components:{
 </script>
 
 <style>
-body{
+.fundo{
 	height: 100vh;
 	width: 100vw;
 	background: url('../assets/capa.png'),
@@ -20,6 +20,5 @@ body{
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;	
 	overflow-x: hidden;			
-	
 }
 </style>

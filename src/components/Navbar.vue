@@ -12,7 +12,7 @@
               <router-link class="btn" to="/premium">Premium</router-link>
               <router-link class="btn" to="/suporte">Suporte</router-link>
               <router-link class="btn" to="/download">Download</router-link>
-              <a href="/">|</a>
+              <a href="/" class="separador">|</a>
               <router-link class="btn" to="/inscreva-se">Inscreva-se</router-link>
               <router-link class="btn" to="/login">Login</router-link>
             </div> 
@@ -47,6 +47,7 @@ background-size: contain;
 color: transparent;
 }
 
+
 .links .btn {
     color: rgb(255, 254, 254);
     font-weight: bold;
@@ -55,7 +56,11 @@ color: transparent;
 .links .btn:hover{
 	color: #9bf0e1;
 }
+.separador{
+  color: white;
+  padding: 15px 15px 0px 15px;
 
+}
 
 
 </style>

@@ -2,31 +2,34 @@
 
   <div class="content-premium">
 
-      <div class="container">
+      <div class="title">
       <h1>Por que obter Premium?</h1>
 
-      <div class="row">
-          <div class="col-lg-3">
-               <img src="..\assets\ContentPremium1.png" class="img-fluid">
+      <div class="conteudo">
+
+          <ul class="items-lista">
+              <li class="item"><img src="..\assets\ContentPremium1.png" class="img-fluid">
                <h4>Baixe músicas.</h4>
                <p>Escute em qualquer lugar.</p>
-          </div> 
-          <div class="col-lg-3">
-               <img src="..\assets\ContentPremium2.png" class="img-fluid">
-               <h4>Sem intervalos.</h4>
+               </li>
+
+              <li class="item"> <img src="..\assets\ContentPremium2.png" class="img-fluid">
+               <h4>Sem anuncios.</h4>
                <p>Escute sem parar.</p>
-          </div> 
-          <div class="col-lg-3">
-               <img src="..\assets\ContentPremium3.png" class="img-fluid">
-               <h4>Escute qualquer música.</h4>
+               </li>
+
+              <li class="item"> <img src="..\assets\ContentPremium3.png" class="img-fluid">
+               <h4>Ouça qualquer música.</h4>
                <p>Até nos celulares.</p>
-          </div> 
-          <div class="col-lg-3">
-               <img src="..\assets\ContentPremium4.png" class="img-fluid">
-               <h4>Pule quantas músicas quiser.</h4>
+               </li>
+
+              <li class="item"> <img src="..\assets\ContentPremium4.png" class="img-fluid">
+               <h4> Passe as músicas.</h4>
                <p>Apenas pule.</p>
-          </div> 
-    </div>
+               </li> 
+          </ul>
+          
+     </div>
           
 
       </div>
@@ -42,13 +45,30 @@ export default {
 <style scoped>
 .content-premium{
     display: flex;
+    justify-content: center;
     background-color: white;
-    padding-top: 90px;
+    padding: 80px 0px 50px 0;
+   
     
 }
+.items-lista{
+    display: flex;
+    list-style: none;
+     flex-wrap: wrap;
+     
+}
+
+.item{
+    width: 285px;
+    height: 286px;
+    text-align: center;
+    align-items: center;
+   
+}
+
  h1{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 55px;
     font-weight: bold;
 }
 h4{
