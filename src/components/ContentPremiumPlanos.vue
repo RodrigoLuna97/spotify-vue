@@ -98,20 +98,33 @@ export default {
     
 }
 
-.row-planos{
+@media (min-width: 1000px)
+{.row-planos{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, auto); 
     -webkit-box-pack: center; 
     margin: 0 370px;
+    
+}}
+
+@media (max-width: 400px)
+{
+.row-planos{
+display: flex;
+flex-direction: column; 
+margin-left: 14%;
 }
+
+}
+
 
 .coluna {
     display: grid;
     width: 265px;
-    border-radius: 10px 10px 0px 0px;
-    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
-    flex-wrap: wrap;
+    border-radius: 10px 10px 10px 0px;
+    box-shadow: rgb(255 255 255) 0px 8px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 10px;
+    
 }
 
 .card-title{
