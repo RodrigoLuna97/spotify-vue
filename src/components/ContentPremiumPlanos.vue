@@ -105,18 +105,30 @@ export default {
     grid-template-rows: repeat(3, auto); 
     -webkit-box-pack: center; 
     margin: 0 370px;
-    
-}}
+    padding-bottom: 20px;
+    }
+}
 
-@media (max-width: 400px)
+@media (max-width: 420px)
 {
 .row-planos{
 display: flex;
 flex-direction: column; 
 margin-left: 14%;
+    }
 }
 
+@media (max-width: 768px)
+{
+.row-planos{
+display: flex;
+flex-wrap: wrap;
+margin-left: 15%;
+gap: 20px 20px;
+padding-bottom: 20px;
+    }
 }
+
 
 
 .coluna {
