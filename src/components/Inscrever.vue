@@ -49,9 +49,10 @@
                     <label for="formGroupData" class="form-label">Qual sua  data de nascimento</label>
                     <input type="date" class="form-control" id="dataNascimento" >
                     </div>
-
+                    
+                    
                     <div class="gender-group">
-                        <label for="formGroupSenha" class="form-label">Qual seu gênero?</label>
+                        <label for="formGroupGenero" class="form-label">Qual seu gênero?</label>
                         <div class="checkbox"><input type="radio" id="gender_option_masculino"> 
                          <label for="gender_option_masculino">Masculino</label>
                          </div>
@@ -63,6 +64,7 @@
                          <label for="gender_option_nonbinary">Não binário</label>
                          </div>
                     </div>
+                    
 
                     <button class="btn btn-inscrever">Inscrever-se</button>
                    
@@ -83,15 +85,14 @@ export default {
 
 <style scoped>
 .section{
-    height: 120vh;
-    width: 100vw;
+    padding: 50px;
     background-color: white;
 
 }
 .conteudo{
     display: flex;
     flex-direction: column;
-    max-width: 370px;
+    max-width: 450px;
     margin: 0 auto;  
     padding-top: 30px;
 }
@@ -159,8 +160,18 @@ background-size: contain;
     color: #222;;
     padding: 5px 5px;
     font-size: 13px;
-    width: 370px; 
+    width: 450px; 
+  }
+  input{
+      height: 54px;
   }
   
+
+@media (max-width: 420px){
+label, input{
+    width: 370px;
+    height: 45px;
+    }
+}
     
 </style>

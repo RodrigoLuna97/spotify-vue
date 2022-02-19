@@ -129,8 +129,26 @@ padding-bottom: 20px;
     }
 }
 
+@media (max-width: 1368px)
+{
+.row-planos{
+display: flex;
+gap: 20px 20px;
+margin-left: 13%;
+padding-bottom: 20px;
+    }
+}
 
-
+@media (max-width: 912px)
+{
+.row-planos{
+display: flex;
+flex-wrap: wrap;
+gap: 20px 20px;
+margin-left: 20%;
+padding-bottom: 20px;
+    }
+}
 .coluna {
     display: grid;
     width: 265px;

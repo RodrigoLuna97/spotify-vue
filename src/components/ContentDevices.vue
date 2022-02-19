@@ -3,7 +3,7 @@
   <div class="devices">
      
         <div id="content">
-          <img src="../assets/imgDevices.png" alt="">
+          <img src="../assets/imgDevices.png" alt="" class="imgDevice">
         </div>
 
         <div id="titulo">
@@ -24,6 +24,7 @@
             </ul>
         </div>
   </div>
+
 </template>
 
 <script>
@@ -42,9 +43,9 @@ export default {
 #content{
     display: flex;
     justify-content: center;
-    
     padding: 30px;
 }
+
 
 #titulo{
     align-self: center;
@@ -67,6 +68,13 @@ li{
 }
 h1{
     color: white;
+}
+
+@media (max-width: 600px)
+{
+.imgDevice{
+    width: 100%;
+    }
 }
 
 
